@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-image: url('1430454123.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: darkgray;
+    opacity: 0.9;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    border: #333 solid 5px;
+    border-radius: 15px;;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #135058;
+}
+
+.btn-grad{background-image: linear-gradient(to right, #F1F2B5 0%, #135058  51%, #F1F2B5  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   margin-left: 100px;
+   
+
+ }
+
+ .btn-grad:hover {
+   background-position: right center; 
+   color: #fff;
+   text-decoration: none;
+ }
+    .btn-grad:active {
+    box-shadow: 0 0 20px #eee;
+    transform: translateY(3px);}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+}
